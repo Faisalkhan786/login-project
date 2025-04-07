@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useLoginMutation } from '../features/auth/authApi';
-import { setCredentials } from '../features/auth/authSlice';
+import { useLoginMutation } from '../features/apiSlices/authApi';
+import { setCredentials } from '../features/slices/authSlice';
 import { useNavigate, Link } from 'react-router-dom';
 
 const LoginPage = () => {

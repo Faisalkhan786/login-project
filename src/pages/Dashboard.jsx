@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../features/auth/authSlice';
+import { logout } from '../features/slices/authSlice';
 import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
