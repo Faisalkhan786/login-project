@@ -15,7 +15,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
         {/* Redirect unknown routes to login */}
-        <Route path="*" element={<LoginPage />} />
+        {/* <Route path="*" element={<LoginPage />} /> */}
       </Routes>
     </Router>
   );
