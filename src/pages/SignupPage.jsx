@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useSignupMutation } from '../features/apiSlices/authApi';
-import { setCredentials } from '../features/slices/authSlice';
+import { useSignupMutation } from '../redux/authApi';
+import { setCredentials } from '../redux/authSlice';
 import { useNavigate, Link } from 'react-router-dom';
 
 const SignupPage = () => {
